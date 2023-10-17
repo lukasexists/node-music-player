@@ -2,7 +2,7 @@
 exports.config = function(){
   data = {
     // edit below here
-    music_dir: "/home/benkaiser/Music/"
+    music_dir: "./music/"
     // and above here
   }
   if(data.music_dir.lastIndexOf("/") == data.music_dir.length-1){
